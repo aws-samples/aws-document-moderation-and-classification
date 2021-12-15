@@ -13,7 +13,8 @@ In the training pipeline, we will label the documents using Amazon SageMaker Gro
 In the inference pipeline, we will:
 1. Perform moderation on uploaded documents using Amazon Rekognition.
 2. Classify documents into different categories such as W-2s, invoices, bank statements, pay stubs using Amazon Rekognition Custom Labels.
-3. Extract text from documents such as printed text, handwriting, forms, and tables using Amazon Textract.
+3. Store meta-data (moderation and classification labels) in to Amazon DynamoDB table.
+4. Extract text from documents such as printed text, handwriting, forms, and tables using Amazon Textract.
 
 ![](InferencePipeline.png)
 
