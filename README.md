@@ -3,6 +3,8 @@
 ## Summary
 This scalable, secure and automated solution allows users to moderate, classifyand process documents using Amazon Rekognition, Custom Labels and Amazon Textract. It allows faster document processing, higher accuracy and reducing the complexity of data extraction. It also provides better security and compliance with personal data legislation by reducing the human workforce involved in processing incoming document.
 
+The solution has two components: 1. Training Pipeline where we will train a model using Amazon Rekognition Custom Labels to classify documents and 2. Inference Pipeline where we will moderate, classify (using the model trained and deployed in the training pipeline) and process documents.
+
 ## Training Pipeline
 In the training pipeline, we will label the documents using Amazon SageMaker GroundTruth. We then will use the labeled documents to train a model with Amazon Rekognition Custom Labels.
 
