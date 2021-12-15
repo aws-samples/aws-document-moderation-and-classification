@@ -11,8 +11,8 @@ In the training pipeline, we will label the documents using Amazon SageMaker Gro
 ### Installation
 Region| Launch
 ------|-----
-US East (N. Virginia) | [![Launch in us-east-1](docs/images/launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-training-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/TrainingPipeline.yaml)
-US West (Oregon) | [![Launch in us-west-2](docs/images/launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-training-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/TrainingPipeline.yaml)
+US East (N. Virginia) | [![Launch in us-east-1](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-training-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/TrainingPipeline.yaml)
+US West (Oregon) | [![Launch in us-west-2](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-training-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/TrainingPipeline.yaml)
 
 ## Inference Pipeline
 
@@ -27,8 +27,8 @@ In the inference pipeline, we will:
 ### Installation
 Region| Launch
 ------|-----
-US East (N. Virginia) | [![Launch in us-east-1](docs/images/launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/InferencePipeline.yml)
-US West (Oregon) | [![Launch in us-west-2](docs/images/launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/InferencePipeline.yml)
+US East (N. Virginia) | [![Launch in us-east-1](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/InferencePipeline.yml)
+US West (Oregon) | [![Launch in us-west-2](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/InferencePipeline.yml)
 
 # Security
 
