@@ -1,4 +1,4 @@
-# Moderating and Classifying Documents using Amazon Rekognition and Amazon Textract
+# Moderating, Classifying and Processing Documents using Amazon Rekognition and Amazon Textract
 
 ## Summary
 This scalable, secure and automated solution allows users to moderate, classifyand process documents using Amazon Rekognition, Custom Labels and Amazon Textract. It allows faster document processing, higher accuracy and reducing the complexity of data extraction. It also provides better security and compliance with personal data legislation by reducing the human workforce involved in processing incoming document.
