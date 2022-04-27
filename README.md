@@ -40,7 +40,7 @@ Region| Launch
 US East (N. Virginia) | [![Launch in us-east-1](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/InferencePipeline.yml)
 US West (Oregon) | [![Launch in us-west-2](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/InferencePipeline.yml)
 
-Once the CloudFormation stack has been created, you are ready to use the solution and process a document. Navigate to Amazon S3 console and find the input S3 bucket. Click on **Create folder** button and enter ***inputDocuments*** and click Create folder. Upload a sample document into the S3 folder.
+Once the CloudFormation stack has been created, you are ready to use the solution and process a document. Navigate to Amazon S3 console and find the input S3 bucket. Upload a sample document into the S3 bucket.
 
 This starts the workflow. The process will populate the DynamoDB table with document classification and moderation labels. The output from Amazon Textract will be delivered to the output S3 bucket inside TextractOutput folder.
 
