@@ -15,8 +15,8 @@ The following Cloudformation templates will deploy the training pipeline.
 
 Region| Launch
 ------|-----
-US East (N. Virginia) | [![Launch in us-east-1](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-training-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/TrainingPipeline.yaml)
-US West (Oregon) | [![Launch in us-west-2](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-training-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/TrainingPipeline.yaml)
+US East (N. Virginia) | [![Launch in us-east-1](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-training-pipeline&templateURL=https://aws-blogs-artifacts-public.s3.amazonaws.com/artifacts/ML-4749/TrainingPipeline.yaml)
+US West (Oregon) | [![Launch in us-west-2](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-training-pipeline&templateURL=https://aws-blogs-artifacts-public.s3.amazonaws.com/artifacts/ML-4749/TrainingPipeline.yaml)
 
 Once the CloudFormation stack has been created, navigate to Amazon SageMaker Console. Click on Notebook instances from the pane on the left. Look for an instance with name **DocProcessingNotebookInstance-** prefix and wait till the status is *InService*. Under Actions, click on *Open Jupyter*. Click on the ***Rekognition_Custom_Labels.ipynb*** notebook.
 
@@ -37,8 +37,8 @@ The following Cloudformation templates will deploy the inference pipeline.
 
 Region| Launch
 ------|-----
-US East (N. Virginia) | [![Launch in us-east-1](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/InferencePipeline.yml)
-US West (Oregon) | [![Launch in us-west-2](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-rek-immersionday-us-east-1.s3.amazonaws.com/InferencePipeline.yml)
+US East (N. Virginia) | [![Launch in us-east-1](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-blogs-artifacts-public.s3.amazonaws.com/artifacts/ML-4749/InferencePipeline.yml)
+US West (Oregon) | [![Launch in us-west-2](launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=doc-moderation-classification-inference-pipeline&templateURL=https://aws-blogs-artifacts-public.s3.amazonaws.com/artifacts/ML-4749/InferencePipeline.yml)
 
 Once the CloudFormation stack has been created, you are ready to use the solution and process a document. Navigate to Amazon S3 console and find the input S3 bucket. Upload a sample document into the S3 bucket.
 
